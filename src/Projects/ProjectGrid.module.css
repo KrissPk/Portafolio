@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.li1 {
+    list-style: none;
+    width: 300px;
+    transition: transform .2s;
+}
+
+.li1:hover {
+    transform: scale(1.02);
+}
+
+.imgweb1 {
+    width: 300px;
+    border-radius: 10px;
+  }
+
+.h3web1 {
+    text-align: center;
+    font-size: large;
+    margin-top: 0px;
+}
