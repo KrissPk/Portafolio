@@ -8,15 +8,15 @@
 .li1 {
     list-style: none;
     width: 90px;
-    transition: transform .2s;
+    transition: transform .1s;
 }
 
 .li1:hover {
-    transform: scale(0.97);
+    transform: scale(0.9);
 }
 
 .li1:active {
-    transform: scale(0.9);
+    transform: scale(0.8);
 }
 
 .imgHtml {
