@@ -1,8 +1,10 @@
 import { ProjectsGrid } from "./Projects/ProjectsGrid";
 import { PhotoDiv } from "./Photo/Photo";
 import { Desc } from "./Desc/Desc";
+import { SkillsGrid } from "./Skills/Skills";
 
 import styles from "./App.module.css";
+
 
 export function App() {
   return (
@@ -17,7 +19,10 @@ export function App() {
         <h2 className={styles.titulos}>Proyectos</h2>
         <ProjectsGrid />
       </div>
-      <div className="skill"><h2 className={styles.titulos}>Skills</h2></div>
+      <div className="skill">
+        <h2 className={styles.titulos}>Skills</h2>
+        <SkillsGrid />
+      </div>
       <div className="contact"><h2 className={styles.titulos}>Contacto</h2></div>
     </div>
   );
