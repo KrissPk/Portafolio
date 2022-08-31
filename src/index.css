@@ -124,4 +124,18 @@ a {
       "skill skill"
       "contact contact"; 
   }
+  body {
+    background-color: #392113;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(-45deg, #020024, #795209, #392113, #00d4ff);
+    background-size: 800% 800%;
+    animation: gradient 30s ease infinite;
+    height: 100vh;
+    overflow: overlay;
+  }
 }
