@@ -28,3 +28,9 @@ h3 {
     font-size: large;
     margin-top: 0px;
 }
+
+@media (max-width: 1040px) {
+    .grid {
+        margin-right: 20px;
+    }
+  }

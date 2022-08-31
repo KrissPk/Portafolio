@@ -6,3 +6,10 @@
     color: #ebeaea;
     font-size: x-large;
 }
+
+@media (max-width: 1040px) {
+    .desc {
+        text-align: left;
+        margin-right: 20px;
+    }
+  }
