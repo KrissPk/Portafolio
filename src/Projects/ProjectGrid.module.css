@@ -25,3 +25,13 @@
     font-size: large;
     margin-top: 0px;
 }
+
+@media (max-width: 1040px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, 250px);
+    }
+    .imgweb1 {
+        width: 250px;
+        border-radius: 10px;
+      }
+  }
