@@ -71,21 +71,21 @@ code {
 .skill {
   grid-area: skill;
   border-radius: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.07);
 }
 
 .project {
   grid-area: project;
   border-radius: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.07);
 }
 
 .contact {
   grid-area: contact;
   border-radius: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.07);
 }
 
